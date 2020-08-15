@@ -8,7 +8,7 @@ package algorithm;
 public class BubbleSort {
     /***
      * 默认从小到大进行冒泡排序
-     * @param nums 
+     * @param nums
      * @return
      */
     public static int[] bubbleSort(int[] nums) {
