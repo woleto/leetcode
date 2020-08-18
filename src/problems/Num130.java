@@ -5,14 +5,14 @@ package problems;
  * @author: Sun, YaSong
  * @time: 2020/8/11 10:34
  */
-public class OneThreeZero {
+public class Num130 {
 
     public void solve(char[][] board) {
 
     }
 
     public static void main(String[] args) {
-        OneThreeZero oneThreeZero = new OneThreeZero();
+        Num130 oneThreeZero = new Num130();
         oneThreeZero.solve(new char[][]{{1,2,3}});
     }
 }

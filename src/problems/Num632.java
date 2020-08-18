@@ -7,7 +7,7 @@ import java.util.*;
  * @author: Sun, YaSong
  * @time: 2020/8/4 14:08
  */
-public class SixThreeTwo {
+public class Num632 {
 
     public int[] smallestRange(List<List<Integer>> nums) {
         int rangeLeft = 0, rangeRight = Integer.MAX_VALUE;
@@ -50,7 +50,7 @@ public class SixThreeTwo {
         nums.add(num1);
         nums.add(num2);
         nums.add(num3);
-        SixThreeTwo sixThreeTwo = new SixThreeTwo();
+        Num632 sixThreeTwo = new Num632();
         int[] result = sixThreeTwo.smallestRange(nums);
         System.out.println(result[0] + "-" + result[1]);
     }

@@ -6,7 +6,7 @@ package problems;
  * @Email: woleto@126.com
  * @Description: num215.数组中第K个最大的元素
  */
-public class TwoOneFive {
+public class Num215 {
     public int findKthLargest(int[] nums, int k) {
         int count = 0;
         for (int i = nums.length - 1; i > 0; i--) {

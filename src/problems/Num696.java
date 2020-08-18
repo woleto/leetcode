@@ -8,7 +8,7 @@ import java.util.List;
  * @author: Sun, YaSong
  * @time: 2020/8/10 17:00
  */
-public class SixNineSix {
+public class Num696 {
 
     public static int countBinarySubstrings(String s) {
 //        得到连续的每个0或1个数
