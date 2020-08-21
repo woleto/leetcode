@@ -6,9 +6,9 @@ package baseutil;
  * @time: 2020/6/16 17:53
  */
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
     public TreeNode(int x){
         val = x;
     }
